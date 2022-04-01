@@ -1,0 +1,32 @@
+[{
+  "userStoryId": 2,
+  "title": "Dev Analysis",
+  "owner": "vasanth",
+  "estimatedTime": 18,
+  "childTasks":[
+        {
+          "userStoryId": 2,
+          "title": "TestCoverage",
+          "owner": "Deepika",
+          "estimatedTime": 9
+        },
+        {
+          "userStoryId": 2,
+          "title": "ServerIntegration",
+          "owner": "Arun",
+          "estimatedTime": 9
+        }
+        ],
+       "resources":[
+        {
+          "resourceName": "DB2",
+          "resourceType": "DataBase",
+          "hours": 10
+        },
+        {
+          "resourceName": "AWS",
+          "resourceType": "WebService",
+          "hours": 10
+        }
+        ]
+}]

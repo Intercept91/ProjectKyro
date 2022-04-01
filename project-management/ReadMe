@@ -1,0 +1,13 @@
+Application Name : project-management
+Motive of the project :
+     1. Manages the project Management daily activities like creating new projects & adding userstories, tasks, resources.
+     2. It calculates the approximate time a project can be completed by taking the above inputs provided by the User(ProjectManagement team)
+     
+What is been used :
+      1. For data storage , h2 database is been used. application properties has all the properties of it.
+      2. Rest API call is been used for upload and retrieval of project details. 
+      3. Used SpringBoot, JPA repository, Entity Classes.
+      
+What is the vision : 
+    Currently the objective of this application is to take the inputs from json. this can be enhanced to UI view , where a user will 
+    enter all the inputs and those will be converted to a json and sent to this endpoints which is currently implemented and running .
